@@ -41,7 +41,7 @@ class BrickBreaker extends FlameGame
         overlays.remove(PlayState.gameOver.name);
         overlays.remove(PlayState.won.name);
     }
-  }                                                             // To here.
+  }                                                             
 
   @override
   FutureOr<void> onLoad() async {
@@ -51,7 +51,7 @@ class BrickBreaker extends FlameGame
 
     world.add(PlayArea());
 
-    playState = PlayState.welcome;                              // Add from here...
+    playState = PlayState.welcome;                              
   }
 
   void startGame() {
