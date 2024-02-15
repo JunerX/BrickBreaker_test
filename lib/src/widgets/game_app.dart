@@ -21,7 +21,7 @@ class _GameAppState extends State<GameApp> {
   void initState() {
     super.initState();
     game = BrickBreaker();
-  }                                                             // To here.
+  }                                                                                                                        
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +50,7 @@ class _GameAppState extends State<GameApp> {
             child: Padding(
               padding: const EdgeInsets.all(16),
               child: Center(
-                child: Column(                                  // Modify from here...
+                child: Column(                                  
                   children: [
                     ScoreCard(score: game.score),
                     Expanded(
@@ -82,7 +82,7 @@ class _GameAppState extends State<GameApp> {
                       ),
                     ),
                   ],
-                ),                                              // To here.
+                ),                                              
               ),
             ),
           ),
